@@ -2,7 +2,9 @@
 UCI HAR Dataset for Coursera Course (Getting and Cleaning Data) Project
 
 See the following link for the dataset used in this analysis
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The R script called run_analysis.R does the following. 
