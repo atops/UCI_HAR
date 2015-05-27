@@ -72,5 +72,6 @@ summary_set <- feature_data %>%
         group_by(activity_label, subject, domain, source, measure, statistic, axis) %>%
         summarize(mean(measurement))
 
+write.table(feature_data, "UCI_HAR_tidy.txt", row.name=FALSE)
 
 write.table(summary_set, "UCI_HAR_Summary.txt", row.name=FALSE)
